@@ -8,6 +8,15 @@ public class Item {
     private String name;
     private String description;
     private Item[] hardCounter;
+    private String imgRes;
+
+    public String getImgRes() {
+        return imgRes;
+    }
+
+    public void setImgRes(String imgRes) {
+        this.imgRes = imgRes;
+    }
 
     public String getName() {
         return name;
