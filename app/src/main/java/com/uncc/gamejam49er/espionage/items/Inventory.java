@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by fuckyouwindows on 10/24/2015.
+ * Created by Matt on 10/24/2015.
  */
 public class Inventory {
     private List<Item> itemList = new ArrayList<Item>();
