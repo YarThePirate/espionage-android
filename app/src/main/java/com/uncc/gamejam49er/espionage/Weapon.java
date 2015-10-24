@@ -5,24 +5,23 @@ package com.uncc.gamejam49er.espionage;
  */
 public class Weapon extends Item {
 
-    private int attackValue;
+    protected int attackValue;
 
 
     public Weapon(String name, int attackValue, String description) {
         this.attackValue = attackValue;
-        setDescription(description);
-        setName(name);
+        this.description = description;
+        this.name = name;
     }
 
     public Weapon(String name, int attackValue, String description, Item[] hardCounter) {
         this.attackValue = attackValue;
-        setDescription(description);
-        setHardCounter(hardCounter);
-        setName(name);
+        this.description = description;
+        this.name = name;
+        this.hardCounter = hardCounter;
     }
 
     public int getAttackValue() {
-
         return attackValue;
     }
 
