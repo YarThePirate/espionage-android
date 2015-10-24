@@ -10,6 +10,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import com.uncc.gamejam49er.espionage.items.Item;
+import com.uncc.gamejam49er.espionage.items.Shiv;
+import com.uncc.gamejam49er.espionage.items.SmokeBomb;
+import com.uncc.gamejam49er.espionage.items.TwoPieceSuit;
+
 public class NewPlayerActivity extends AppCompatActivity {
     public final static String EXTRA_VIEW_ITEM = "com.uncc.gamejam49er.espionage.EXTRA_VIEW_ITEM";
 

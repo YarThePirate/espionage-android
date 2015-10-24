@@ -1,4 +1,4 @@
-package com.uncc.gamejam49er.espionage;
+package com.uncc.gamejam49er.espionage.items;
 
 
 /**

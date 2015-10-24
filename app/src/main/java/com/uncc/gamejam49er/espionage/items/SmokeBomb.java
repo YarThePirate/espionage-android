@@ -1,6 +1,4 @@
-package com.uncc.gamejam49er.espionage;
-
-import android.widget.ImageView;
+package com.uncc.gamejam49er.espionage.items;
 
 /**
  * Created by Megan on 10/24/2015.
