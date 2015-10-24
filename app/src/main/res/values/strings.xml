@@ -13,4 +13,9 @@
 
     <string name="start_stat_1_name">Nuclear Football</string>
     <string name="start_stat_1_flavor">You may have heard of the Nuclear Football. This is not that nuclear football. This is a football made of Uranium.</string>
+    <string name="title_activity_display_item">DisplayItemActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="goBackString">Go Back</string>
+    <string name="takeString">Take</string>
 </resources>
