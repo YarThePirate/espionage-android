@@ -11,8 +11,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
+import java.io.FileNotFoundException;
+
 public class StartActivity extends AppCompatActivity {
 
+    public final static String FILENAME = "PlayerValues";
     Button startButton;
 
     @Override
@@ -23,6 +26,8 @@ public class StartActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         startButton = (Button) findViewById(R.id.start_button);
+
+
     }
 
     @Override
@@ -48,6 +53,17 @@ public class StartActivity extends AppCompatActivity {
     }
 
     public void enterGame(View view) {
+        //Check if the player is new or not
+        try {
+
+            if (openFileInput(FILENAME) != null) {
+                Intent intent = new Intent(this, NewPlayerActivity.class); //CHANGE ACTIVITY!!!!!!!!!!!!!!!!!!!
+                startActivity(intent);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        //Start a new player
         Intent intent = new Intent(this, NewPlayerActivity.class);
         startActivity(intent);
     }
