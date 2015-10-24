@@ -37,6 +37,10 @@ public class Inventory {
         itemList.remove(item);
     }
 
+    public List<Item> getItems() {
+        return itemList;
+    }
+
     /**
      * Return number of items in the inventory
      *

@@ -1,6 +1,8 @@
 package com.uncc.gamejam49er.espionage.items;
 
 
+import com.uncc.gamejam49er.espionage.items.powers.Power;
+
 import java.util.List;
 
 /**
@@ -12,6 +14,7 @@ public class Item {
     protected int attackValue;
     protected List<Item> hardCounters;
     protected String imgRes;
+    protected Power power;
 
     public String getName() {
         return name;
