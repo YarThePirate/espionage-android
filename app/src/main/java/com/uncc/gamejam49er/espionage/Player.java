@@ -1,12 +1,13 @@
 package com.uncc.gamejam49er.espionage;
 
+import com.uncc.gamejam49er.espionage.items.Inventory;
 import com.uncc.gamejam49er.espionage.items.Item;
 
 /**
  * Created by Megan on 10/24/2015.
  */
 public class Player {
-    private Item[] inventory = new Item[2];
+    private Inventory inventory;
     private String[] intel;
     private int rank;
     private String faction;
@@ -22,12 +23,12 @@ public class Player {
      * @param out
      */
     public void replaceItems(Item in, Item out) {
-        if (inventory[0].getName().equals(in.getName())) {
+        /*if (inventory[0].getName().equals(in.getName())) {
             inventory[0] = out;
         }
         else if (inventory[1].getName().equals(in.getName())) {
             inventory[1] = in;
-        }
+        }*/
     }
 
     public int getRank() {
@@ -54,11 +55,11 @@ public class Player {
         this.intel = intel;
     }
 
-    public Item[] getInventory() {
+    public Inventory getInventory() {
         return inventory;
     }
 
-    public void setInventory(Item[] inventory) {
+    public void setInventory(Inventory inventory) {
         this.inventory = inventory;
     }
 }
