@@ -1,5 +1,7 @@
 package com.uncc.gamejam49er.espionage;
 
+import com.uncc.gamejam49er.espionage.items.Item;
+
 /**
  * Created by Megan on 10/24/2015.
  */

@@ -1,14 +1,14 @@
-package com.uncc.gamejam49er.espionage;
+package com.uncc.gamejam49er.espionage.items;
 
 
 /**
  * Created by Megan on 10/23/2015.
  */
 public class Item {
-    private String name;
-    private String description;
-    private Item[] hardCounter;
-    private String imgRes;
+    protected String name;
+    protected String description;
+    protected Item[] hardCounter;
+    protected String imgRes;
 
     public String getImgRes() {
         return imgRes;
