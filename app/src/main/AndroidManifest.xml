@@ -27,6 +27,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.uncc.gamejam49er.espionage.StartActivity" />
         </activity>
+        <activity
+            android:name=".DisplayItemActivity"
+            android:label="@string/title_activity_display_item" >
+        </activity>
     </application>
 
 </manifest>
