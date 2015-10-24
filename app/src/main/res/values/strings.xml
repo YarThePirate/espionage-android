@@ -6,7 +6,7 @@
     <string name="new_player_prompt">Select Starting Items</string>
 
     <string name="start_weapon_1_name">Shiv</string>
-    <string name="start_weapon_1_flavor">No spy's inventory is complete without a fancy stabby stick.</string>
+    <string name="start_weapon_1_flavor">No spy\'s inventory is complete without a fancy stabby stick.</string>
 
     <string name="start_armor_1_name">Two Piece Suit</string>
     <string name="start_armor_1_flavor">Stay classy.</string>
