@@ -1,13 +1,15 @@
 package com.uncc.gamejam49er.espionage.items.weapons;
 
+import com.uncc.gamejam49er.espionage.items.Item;
+
 /**
  * Created by Megan on 10/24/2015.
  */
-public class LaserWatch extends Weapon {
+public class LaserWatch extends Item {
 
     public LaserWatch() {
-        setName("Laser Watch");
-        setAttackValue(6);
-        setDescription("Check the time and kill your enemies. Attack Value: " + getAttackValue());
+        this.name = "Laser Watch";
+        this.attackValue = 6;
+        this.description = "Check the time and kill your enemies.";
     }
 }
