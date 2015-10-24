@@ -1,5 +1,6 @@
 package com.uncc.gamejam49er.espionage;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +11,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class NewPlayerActivity extends AppCompatActivity {
+    public final static String EXTRA_VIEW_ITEM = "com.uncc.gamejam49er.espionage.EXTRA_VIEW_ITEM";
+
     Button start_weapon_button;
     Button start_armor_button;
     Button start_stat_button;
@@ -27,7 +30,7 @@ public class NewPlayerActivity extends AppCompatActivity {
         // See if there's a mo betterer way to do this
         Item start_weapon = new Shiv();
         Item start_armor = new TwoPieceSuit();
-        BriefCase start_stat = new BriefCase();
+        Item start_stat = new SmokeBomb();
 
         // Initialize the Views
         start_weapon_button = (Button) findViewById(R.id.start_weapon);
@@ -58,7 +61,9 @@ public class NewPlayerActivity extends AppCompatActivity {
     }
 
     public void displayItem(View view) {
-
+        Item selectedItem = (Item) view.getTag();
+        Intent intent = new Intent(this, DisplayItemActivity.class);
+        intent.putExtra(EXTRA_VIEW_ITEM, selectedItem.getName());
     }
 
 }

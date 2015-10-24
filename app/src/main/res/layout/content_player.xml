@@ -46,21 +46,23 @@
                 android:text="@string/start_armor_1_name"
                 android:id="@+id/start_armor"
                 android:layout_gravity="center_horizontal"
-                android:onClick="displayItem(@)"/>
+                android:onClick="displayItem()" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/start_weapon_1_name"
                 android:id="@+id/start_weapon"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:onClick="displayItem()" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/start_stat_1_name"
                 android:id="@+id/start_stat"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:onClick="displayItem()" />
 
 
         </LinearLayout>
