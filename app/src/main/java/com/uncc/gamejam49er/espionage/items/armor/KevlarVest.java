@@ -1,4 +1,7 @@
-package com.uncc.gamejam49er.espionage.items;
+package com.uncc.gamejam49er.espionage.items.armor;
+
+import com.uncc.gamejam49er.espionage.items.Item;
+import com.uncc.gamejam49er.espionage.items.weapons.Pistol;
 
 /**
  * Created by Megan on 10/24/2015.
