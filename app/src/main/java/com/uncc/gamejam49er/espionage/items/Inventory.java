@@ -19,13 +19,9 @@ public class Inventory {
      * @param item
      */
     public void addItem(Item item) {
-        if (itemList.size() >= 2 ) {
-            // Can't add any more; inventory is full. so do something
-        } else {
-            itemList.add(item);
-            hardCounters.addAll(item.getHardCounters());
-            attackStrength += item.getAttackValue();
-        }
+        itemList.add(item);
+        hardCounters.addAll(item.getHardCounters());
+        attackStrength += item.getAttackValue();
     }
 
     /**
@@ -39,6 +35,15 @@ public class Inventory {
             hardCounters.remove(counteredItem);
         }
         itemList.remove(item);
+    }
+
+    /**
+     * Return number of items in the inventory
+     *
+     * @return
+     */
+    public int getTotalItems() {
+        return itemList.size();
     }
 
     /**
