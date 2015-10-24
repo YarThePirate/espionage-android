@@ -1,13 +1,16 @@
 package com.uncc.gamejam49er.espionage.items;
 
 
+import java.util.List;
+
 /**
  * Created by Megan on 10/23/2015.
  */
 public class Item {
     protected String name;
     protected String description;
-    protected Item[] hardCounter;
+    protected int attackValue;
+    protected List<Item> hardCounters;
     protected String imgRes;
 
     public String getImgRes() {
@@ -34,12 +37,16 @@ public class Item {
         this.description = description;
     }
 
-    public Item[] getHardCounter() {
-        return hardCounter;
+    public List<Item> getHardCounters() {
+        return hardCounters;
     }
 
-    public void setHardCounter(Item[] hardCounter) {
-        this.hardCounter = hardCounter;
+    public void setHardCounters(List<Item> hardCounters) {
+        this.hardCounters.addAll(hardCounters);
+    }
+
+    public int getAttackValue() {
+        return attackValue;
     }
 }
 
