@@ -70,8 +70,6 @@ public class DisplayItemActivity extends AppCompatActivity {
         //display_img.setBackgroundResource(this.getResources().getIdentifier(item.getImgRes(), "drawable",
         //        this.getPackageName()));
 
-
-
     }
 
     public void goBackItemView(View view) {
