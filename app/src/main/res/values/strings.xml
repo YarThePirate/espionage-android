@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Espionage</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_button">Accept_</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="new_player_prompt">Select Starting Items</string>
+
+    <string name="start_weapon_1_name">Shiv</string>
+    <string name="start_weapon_1_flavor">No spy's inventory is complete without a fancy stabby stick.</string>
+
+    <string name="start_armor_1_name">Two Piece Suit</string>
+    <string name="start_armor_1_flavor">Stay classy.</string>
+
+    <string name="start_stat_1_name">Nuclear Football</string>
+    <string name="start_stat_1_flavor">You may have heard of the Nuclear Football. This is not that nuclear football. This is a football made of Uranium.</string>
+</resources>
