@@ -83,6 +83,7 @@ public class NewPlayerActivity extends AppCompatActivity {
         Item selectedItem = (Item) view.getTag();
         Intent intent = new Intent(this, DisplayItemActivity.class);
         intent.putExtra(EXTRA_VIEW_ITEM, selectedItem.getName());
+        startActivity(intent);
     }
 
     // ADDD done BUTTON!!!!!
@@ -90,9 +91,9 @@ public class NewPlayerActivity extends AppCompatActivity {
         //After you've got all the items
         Player player = new Player();
         String string = player.getFaction() + "\n" +
-                player.getRank() + "\n" +
-                player.getInventory()[0] + "\n" +
-                player.getInventory()[1];
+                player.getRank() + "\n";
+//                player.getInventory()[0] + "\n" +
+//                player.getInventory()[1];
         FileOutputStream outputStream;
 
         try {
@@ -116,7 +117,7 @@ public class NewPlayerActivity extends AppCompatActivity {
         }
 
 
-        Intent intent = new Intent(this, DisplayItemActivity.class); //CHANGE!!!!!!!!!!!!!!!!!!!!!!!
+        Intent intent = new Intent(this, SpyDilemnaActivity.class);
         startActivity(intent);
     }
 

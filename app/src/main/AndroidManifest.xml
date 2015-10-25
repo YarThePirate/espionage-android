@@ -31,6 +31,18 @@
             android:name=".DisplayItemActivity"
             android:label="@string/title_activity_display_item" >
         </activity>
+        <activity
+            android:name=".ViewInventoryActivity"
+            android:label="@string/title_activity_view_inventory" >
+        </activity>
+        <activity
+            android:name=".SpyDilemnaActivity"
+            android:label="@string/title_activity_spy_dilemna" >
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
     </application>
 
 </manifest>

@@ -18,4 +18,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="goBackString">Go Back</string>
     <string name="takeString">Take</string>
+    <string name="doneString">done</string>
+    <string name="title_activity_view_inventory">ViewInventoryActivity</string>
+    <string name="title_activity_spy_dilemna">SpyDilemnaActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
 </resources>

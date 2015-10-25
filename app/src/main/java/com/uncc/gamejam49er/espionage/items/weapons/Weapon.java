@@ -20,7 +20,7 @@ public class Weapon extends Item {
         this.attackValue = attackValue;
         this.description = description;
         this.name = name;
-        this.hardCounter = hardCounter;
+        //this.hardCounter = hardCounter;
     }
 
     public int getAttackValue() {
