@@ -1,12 +1,14 @@
 package com.uncc.gamejam49er.espionage.items.weapons;
 
+import com.uncc.gamejam49er.espionage.items.Item;
+
 /**
  * Created by Megan on 10/24/2015.
  */
-public class Shiv extends Weapon {
+public class Shiv extends Item {
     public Shiv() {
-        setName("Shiv");
-        setAttackValue(6);
-        setDescription("Give your enemy a not so clean shave. Attack Value: " + getAttackValue());
+        this.name = "Shiv";
+        this.attackValue = 1;
+        this.description = "Give your enemy a not so clean shave";
     }
 }
