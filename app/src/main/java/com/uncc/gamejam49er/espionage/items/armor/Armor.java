@@ -36,7 +36,7 @@ public class Armor extends Item {
         this.name = name;
         this.defenseValue = defenseValue;
         this.description = description;
-        this.hardCounter = hardCounter;
+        //this.hardCounter = hardCounter;
         this.attackValue = 0;
     }
 
@@ -45,7 +45,7 @@ public class Armor extends Item {
         this.defenseValue = defenseValue;
         this.description = description;
         this.attackValue = attackValue;
-        this.hardCounter = hardCounter;
+        //this.hardCounter = hardCounter;
     }
 
     public int getAttackValue() {

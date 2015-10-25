@@ -55,9 +55,8 @@ public class StartActivity extends AppCompatActivity {
     public void enterGame(View view) {
         //Check if the player is new or not
         try {
-
             if (openFileInput(FILENAME) != null) {
-                Intent intent = new Intent(this, NewPlayerActivity.class); //CHANGE ACTIVITY!!!!!!!!!!!!!!!!!!!
+                Intent intent = new Intent(this, SpyDilemnaActivity.class);
                 startActivity(intent);
             }
         } catch (FileNotFoundException e) {

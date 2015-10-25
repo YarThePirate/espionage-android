@@ -74,10 +74,12 @@ public class DisplayItemActivity extends AppCompatActivity {
 
     public void goBackItemView(View view) {
         Intent intent = new Intent(this, NewPlayerActivity.class);
+        startActivity(intent);
     }
 
     public void takeItemView(View view) {
         Intent intent = new Intent(this, NewPlayerActivity.class);
         intent.putExtra(SELECT_ITEM, item.getName());
+        startActivity(intent);
     }
 }

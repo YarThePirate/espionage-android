@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.uncc.gamejam49er.espionage" >
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -35,6 +34,14 @@
         <activity
             android:name=".ViewInventoryActivity"
             android:label="@string/title_activity_view_inventory" >
+        </activity>
+        <activity
+            android:name=".SpyDilemnaActivity"
+            android:label="@string/title_activity_spy_dilemna" >
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
         </activity>
     </application>
 
